@@ -169,7 +169,8 @@ Access the server at [http://localhost:8000/chain](http://localhost:8000/chain).
 ## Playground
 Each LangServe deployment includes a playground UI at [http://localhost:8000/chain/playground/](http://localhost:8000/chain/playground/).
 
-![Description of Image](./images/imagen.png)
+![Description of Image](./images/image.jpg)
+
 
 ## Client Setup
 You can interact with the API programmatically using `langserve.RemoteRunnable`:
@@ -183,9 +184,7 @@ print(remote_chain.invoke({"language": "italian", "text": "hi"}))
 ![Description of Image](./images/imagen2.jpg)
 
 ## Diagrama de Arquitectura
-
-![Description of Image](./images/imagen1.png)
-
+![Description of Image](./images/image1.jpg)
 
 1. **Usuario** envía una solicitud de traducción al **Cliente**.
 2. **Cliente** envía la solicitud al **Servidor FastAPI** en el endpoint `/chain`.
